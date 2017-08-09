@@ -8,7 +8,7 @@ require_once('TCP.php');
 require_once('Socket.php');
 require_once('Parser.php');
 //连接 需要权限
-$client = new WebSocket('192.168.88.128', 9501, '/?sid=VH4OKgcjVHZTPlFzBnVTYwExCS9RdFdwDX5VdwFiV3ADaFRjBio=');
+$client = new WebSocket('192.168.88.128', 9501, '/VH4OKgcjVHZTPlFzBnVTYwExCS9RdFdwDX5VdwFiV3ADaFRjBio=');
 
 echo '准备'."<br>";
 if(!($temp = $client->connect()))
